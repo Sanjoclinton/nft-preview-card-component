@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+  </style>
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+
+<body>
+  <!-- This is the main container-->
+  <div id="card">
+    <div id="equilibrium">
+      <div id="icon-container">
+        <img id="view-icon" src="images/icon-view.svg" alt="view">
+      </div>
+    </div>
+    <h2 id="text-equilibrum">Equilibrium #3429</h2>
+    <p>Our Equilibrium collection promotes balance and calm.</p>
+
+    <!-- This a flex container for the price and days left-->
+    <div id="price-and-timeleft">
+      <!-- price on left-->
+      <div id="price" class="time-price-item">
+        <img id="eth" class="icons" src="images/icon-ethereum.svg">
+        <p>0.041 ETH</p>
+      </div>
+
+      <!-- Time left on right-->
+      <div id="time-left" class="time-price-item">
+        <img class="icons" src="images/icon-clock.svg">
+        <p>3 days left</p>
+      </div>
+    </div>
+
+    <hr>
+    <!--Details about creator-->
+    <div id="creator">
+      <img id="creator-img" src="images/image-avatar.png" alt="creator's image">
+      <p>Creation of <span id="creator-name">Jule Wyvern</span></p>
+    </div>
+
+  </div>
+
+</body>
+</html>

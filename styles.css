@@ -1,0 +1,113 @@
+/* GL0BAL STYLING */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: rgb(139, 172, 218);
+    font-size: 18px ;
+    font-family: 'Outfit', sans-serif; ;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN CARD CSS STYLING */
+#card {
+    width: 340px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#equilibrium {
+    background: url("images/image-equilibrium.jpg") no-repeat center center/ cover;
+    display: block;
+    margin: 0 auto 20px;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#icon-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#view-icon {
+    opacity: 0;
+}
+
+#text-equilibrum {
+    margin: 10px 0;
+    color: white;
+}
+
+/* TIME AND PRICE FLEX STYLING */
+#price-and-timeleft {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.time-price-item {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    margin-right: 5px;
+}
+
+#price {
+    color: rgb(0, 255, 247);
+}
+
+hr {
+    border: 0.5px solid rgb(139, 172, 218);
+    margin-bottom: 20px;
+}
+
+/* CREATOR STYLING */
+#creator-img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+#creator {
+    display: flex;
+    align-items: center;
+}
+
+#creator-name {
+    color: white;
+}
+
+/* HOVER STATES */
+
+#text-equilibrum:hover, #creator-name:hover {
+    color: rgb(0, 255, 247);
+    cursor: pointer;
+}
+
+/* This makes the view icon visible */
+#equilibrium:hover #view-icon{
+    opacity: 1;
+}
+
+/*Activates the cyan background color on hover */
+#equilibrium:hover #icon-container {
+    background-color:rgba(0, 255, 247, 0.7);
+    cursor: pointer;
+}
