@@ -24,12 +24,15 @@ Your users should be able to:
 
 ### Screenshot
 Mobile View
+
 ![](./design/mobile%20view.png)
 
 Active view (hover state)
+
 ![](./design/active.jpg)
 
 Desktop view
+
 ![](./design/desktop%20view.png)
 
 
